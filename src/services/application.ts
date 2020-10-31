@@ -1,4 +1,4 @@
-import PodcastStationManager from '@/models/podcast_station';
+import PodcastStationManager from '@/models/PodcastStationManager';
 import { dialog, ipcMain } from 'electron';
 
 ipcMain.handle('testDialog', async (event, data) => {
