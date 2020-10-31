@@ -12,7 +12,7 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import HelloWorld from '@/views/components/HelloWorld.vue';
 
 // import { ipcRenderer } from 'electron'
 export default {
